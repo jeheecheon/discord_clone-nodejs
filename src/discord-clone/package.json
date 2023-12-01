@@ -10,11 +10,11 @@
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
     "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.16",
     "bcrypt": "^5.1.1",
@@ -33,5 +33,9 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/react-dom": "^18.2.17"
   }
 }
