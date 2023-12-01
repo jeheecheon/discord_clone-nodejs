@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
@@ -14,8 +15,11 @@
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
+    "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.16",
+    "bcrypt": "^5.1.1",
     "class-variance-authority": "^0.7.0",
+    "dotenv": "^16.3.1",
     "eslint": "8.50.0",
     "eslint-config-next": "^14.0.3",
     "next": "^14.0.3",
